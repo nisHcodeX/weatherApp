@@ -3,7 +3,7 @@ import Weather from './Weather';
 import "bootstrap/dist/css/bootstrap.css"
 
 
-const Weathers = ({weatherData,weatherDataDays}) => {
+const Weathers = ({ weatherData, weatherDataDays }) => {
     return (
         <div >
             <Weather weatherData={weatherData} weatherDataDays={weatherDataDays} />

@@ -12,13 +12,13 @@ import Footer from './components/Footer';
 function App() {
   const [showWeather, setShowWeather] = useState(false)
   const [weatherData, setWeatherData] = useState([])
-  const [weatherDataDays,setWeatherDataDays] = useState([])
+  const [weatherDataDays, setWeatherDataDays] = useState([])
 
   const getWeatherUpdates = async (city) => {
     try {
-      const data = await weatherApi(city)  
+      const data = await weatherApi(city)
       const getKey = data.list[0].dt_txt
-      const keyNew = new Date((data.list[0].dt)*1000).getDate()
+      const keyNew = new Date((data.list[0].dt) * 1000).getDate()
       console.log(keyNew)
       const newList = data.list.filter((list) => list.dt_txt === getKey)
       const { temp } = newList[0].main
@@ -38,11 +38,11 @@ function App() {
     getWeatherUpdates()
   }, [])
   return (
-    <div style= {{alignItems : 'center'}}>
+    <div style={{ alignItems: 'center' }}>
       <Navbar />
       <SearchBar getWeatherUpdates={getWeatherUpdates} />
-      {showWeather && <Weathers  weatherData={weatherData}  weatherDataDays={weatherDataDays}/>}
-      {showWeather && <Footer/>}
+      {showWeather && <Weathers weatherData={weatherData} weatherDataDays={weatherDataDays} />}
+      {showWeather && <Footer />}
     </div>
   );
 }

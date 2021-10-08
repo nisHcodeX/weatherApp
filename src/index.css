@@ -23,6 +23,7 @@
  }
  .serachBarInput{
    width: 600px;
+   text-align: center;
  }
  .serachBarInputGo{
   margin-top: 25px;
