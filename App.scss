@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  /* navBar Style */
+  // .navWeather {
+  //     background-color: darkgrey;
+  //     width: 600px; 
+  // }
+  /* SearchBar styles */
+  
+   /* Weather Bar */
+  
+
+  // .navShadow{
+  //   /* border: 1px solid ; */
+  //   margin-top: 10px;
+  //   padding: 10px;
+  //   border-radius: 5px;
+  //   box-shadow: 2px 2px 2px #888888;
+  //   background-color: #75E6DA;
+  // }
+  // .navShadow div{
+  //   align-items: center
+  // }
+  
+  /* weather Slider */
+ 
+  /* footer styles */
+
+  
+  /* Responsive Design */
+  @media only screen and (max-width: 1280px) {
+   .mainSlider{
+     display: flex;
+     flex-direction:column;
+     align-items: center;
+   }
+   .mainSliderDiv{
+     display: flex;
+     justify-content: center;
+     width: 300px;  
+   }
+  .serachBarRes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } 
+  .serachBarRes input{
+    width: 80%
+  }
+  .serachBarInputGo{
+    margin-top: 5px;
+    border: 1px solid black;
+    width: 25%;
+    height: 10%;
+    font-style: bold;
+  }
+  .weatherBarStyle{
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+  }
+  }
+  

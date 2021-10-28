@@ -1,0 +1,19 @@
+.footer {
+    position: initial;
+    bottom: 0;
+    margin: 20px 0px 10px 0px;
+    padding-top : 10px;
+    display: flex;
+    box-shadow: 2px 2px 2px #888888;
+    width: 100%;
+    justify-content: flex-end;
+    background-color: #75E6DA;
+    div {
+        display: flex;
+        gap : 10px;
+        margin-right : 20px;
+        h6{
+            padding-top : 5px;
+        }
+    }
+}

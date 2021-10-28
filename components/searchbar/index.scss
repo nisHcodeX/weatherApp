@@ -1,0 +1,28 @@
+.searchBarMain{
+    margin-bottom: 25px;
+  }
+  .serachBar {
+   display: flex;
+   justify-content: center;
+  }
+   .serachBar input
+   {
+     margin-top: 25px;
+     height: 50px;
+     outline: none;
+   }
+   .serachBarInput{
+     width: 600px;
+     text-align: center;
+   }
+   .serachBarInputGo{
+    margin-top: 25px;
+    border: 1px solid black;
+    font-size-adjust: initial;
+    width: 80px;
+    height: 50px;
+    font-style: bold;
+  }
+  .serachBarInputGo h5{
+    padding-top : 5px;
+  }

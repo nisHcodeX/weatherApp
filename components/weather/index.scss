@@ -1,0 +1,16 @@
+.weatherBar{
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .weatherBarStyle{
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #888888;
+    background-color: #75E6DA;
+  }
+  .weatherBarStyleDiv{
+    display: flex;
+  }

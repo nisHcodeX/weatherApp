@@ -1,0 +1,15 @@
+.navWeather {
+      background-color: darkgrey;
+      width: 600px; 
+  }
+ .navShadow{
+    /* border: 1px solid ; */
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #888888;
+    background-color: #75E6DA;
+  }
+  .navShadow div{
+    align-items: center
+  }
